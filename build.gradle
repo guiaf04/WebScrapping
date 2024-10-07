@@ -1,0 +1,31 @@
+plugins {
+    id 'groovy'
+}
+
+group = 'aczg'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+//    implementation 'org.apache.groovy:groovy:4.0.14'
+//    implementation 'io.github.http-builder-ng:http-builder-ng-core:1.0.4'
+//    implementation 'org.jsoup:jsoup:1.17.2'
+//    testImplementation platform('org.junit:junit-bom:5.10.0')
+//    testImplementation 'org.junit.jupiter:junit-jupiter'
+
+    implementation 'org.codehaus.groovy:groovy-all:3.0.22'
+    implementation 'io.github.http-builder-ng:http-builder-ng-core:1.0.4'
+    implementation 'org.slf4j:slf4j-api:1.7.32'
+    implementation 'org.jsoup:jsoup:1.17.2'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.2'
+}
+
+
+
+test {
+    useJUnitPlatform()
+}
