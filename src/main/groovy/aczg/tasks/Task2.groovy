@@ -1,5 +1,8 @@
-package aczg
+package aczg.tasks
 
+import aczg.Scraper
+import aczg.crawlers.TISSOlderPattern
+import aczg.crawlers.TISSPage
 import org.jsoup.select.Elements
 
 import java.nio.file.Files

@@ -1,5 +1,6 @@
-package aczg
+package aczg.crawlers
 
+import aczg.Scraper
 import org.jsoup.nodes.Document
 import org.jsoup.nodes.Element
 

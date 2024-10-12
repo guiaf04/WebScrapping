@@ -1,5 +1,8 @@
-package aczg
+package aczg.tasks
 
+import aczg.Scraper
+import aczg.crawlers.TISSPage
+import aczg.crawlers.TISSRelationalTables
 import groovyx.net.http.HttpException
 import groovyx.net.http.optional.Download
 import org.jsoup.nodes.Document

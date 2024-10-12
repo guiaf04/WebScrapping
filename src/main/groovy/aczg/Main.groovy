@@ -1,5 +1,13 @@
 package aczg
 
+import aczg.crawlers.TISSCurrentPattern
+import aczg.crawlers.TISSOlderPattern
+import aczg.crawlers.TISSPage
+import aczg.crawlers.TISSRelationalTables
+import aczg.tasks.Task1
+import aczg.tasks.Task2
+import aczg.tasks.Task3
+
 class Main {
     static void main(String[] args) {
         def scraper = new Scraper('https://www.gov.br')
